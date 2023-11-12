@@ -49,7 +49,7 @@ void StringKeyboard(string [] elements)  //  Метод "заполнение о
     return;
 }
 
-int CountOfArray (string [] array, int Digits) // Метод для определения количества элементов в массиве не больше заданного количества символов
+int CountOfArray (string [] array, int Digits) // Метод для определения количества элементов в массиве с длиной строки не больше заданного количества символов
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
